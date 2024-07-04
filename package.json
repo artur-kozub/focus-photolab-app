@@ -4,8 +4,8 @@
   "description": "crm for photo studio",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon src/bot.js",
-    "start": "node src/bot.js"
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js"
   },
   "author": "artur kozub",
   "license": "ISC",
@@ -14,6 +14,7 @@
   },
   "dependencies": {
     "dotenv": "^16.4.1",
+    "express": "^4.19.2",
     "node-telegram-bot-api": "^0.64.0"
   }
 }
