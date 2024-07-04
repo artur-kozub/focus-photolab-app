@@ -4,8 +4,8 @@
   "description": "crm for photo studio",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon src/server.js",
-    "start": "node src/server.js"
+    "dev": "nodemon src/app.js",
+    "start": "node src/app.js"
   },
   "author": "artur kozub",
   "license": "ISC",
